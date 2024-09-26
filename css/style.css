@@ -1,0 +1,62 @@
+:root{
+    --bgc: rgb(218, 215, 205);
+    --22: rgb(163, 177, 138);
+    --23: rgb(88, 129, 87);
+    --24: rgb(58, 90, 64);
+    --25: rgb(52, 78, 65);
+}
+
+*{   margin:0;
+     padding: 0;
+     box-sizing: border-box;
+}
+img{
+    width: 100%;
+}
+
+body{
+    background-color: var(--22) ;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card{
+    background-color: var(--25);
+    width: 20rem;
+}
+.card-img{
+    border-radius: 10px 10px 0 0;
+}
+
+.card-body{
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+    padding: 1rem;
+
+}
+
+.card-body p{
+    line-height: 1.5;
+    text-align: justify;
+}
+
+.card-body a{
+    text-decoration:none ;
+    color: black;
+    background-color: var(--23);
+    padding: .5rem 1rem;
+    width: 5rem;
+    display: block;
+    border-radius: 5px;
+}
+
+.card-body a:hover{
+    background-color: var(--25);
+    color: #0000;
+}
